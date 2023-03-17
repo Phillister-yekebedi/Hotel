@@ -1,0 +1,113 @@
+.box{
+    background-image: url(./image.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 30rem;
+    background: linear-gradient();
+    align-content: center;
+}
+.box1 ul{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    list-style: none;
+}
+.p{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 80%;
+    font-size: 150%;
+}
+.but{
+    padding: 1.5rem;
+    border-radius: 30%;
+    font-size: larger;
+    color: black;
+    background-color: burlywood;
+}
+.box2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 3rem;
+    align-items: center;
+    margin-left: 3.8em;
+    width: 4rem;
+    height: 20%;
+    margin-top: 7rem;
+}
+/* .button1{
+    display: inline-block;
+} */
+.food{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    border-radius:6;
+    margin-top: 10%;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+}
+.men{
+    text-align: center;
+}
+.box3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 50%;
+    height: 60%;
+    background-color: beige;
+    padding: 5%;
+
+}
+.fac{
+    text-align: center;
+}
+.rooms{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10%;
+    margin-top:90% ;
+}
+.roms{
+    text-align: center;
+
+}
+.wod{
+    display: grid; 
+    grid-template-columns: repeat(1,1fr);
+}
+.words{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+}
+.words1{
+    display: grid;
+
+}.endpage{
+    display: grid;grid-template-columns: repeat(3,1fr);
+    margin-top:4rem ;
+
+
+}
+.clients{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+h1{
+text-align: center;
+}
+.comp{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10%;
+}
+.comp-p{
+    padding: 10rem;
+}
+.inside{
+   align-items: center;
+   display: grid;
+   grid-template-columns: repeat(1fr);
+}
+
