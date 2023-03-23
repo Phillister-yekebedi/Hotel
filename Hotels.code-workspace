@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Desktop/hotel-img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Hotels"
+	}
+}
