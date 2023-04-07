@@ -1,8 +1,17 @@
-/* @media (min-width:600px) and(max-width:760px){
-body{
-    background-color: bisque;
+ @media(max-width:600px) {
+  body {
+    background-color: rgb(237, 234, 234);
+ }
 }
-} */
+@media (min-width:601px) {
+    body {
+      background-color: rgb(237, 234, 234);
+   }
+  }
+
+
+  
+  
 body{
     background-color: rgb(237, 234, 234);
     overflow-x: hidden;
@@ -24,7 +33,7 @@ body{
 }
 .p{
     text-align: center;
-    colorrgb(251, 1, 1);
+     color: whitesmoke;
     font-weight: 80%;
     font-size: 150%;
 }
@@ -301,9 +310,21 @@ Form label{
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
 }
+.recep{
+    height: 300px;
+    width: 50%;
+    border: black;
+    border-radius: 100px 10px ;
+}
 .story2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+}
+.reception{
+    height: 300px;
+    width: 50%;
+    border: none;
+    border-radius: 10px 100px ;
 }
 .story3{
     display: grid;
